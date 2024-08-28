@@ -20,7 +20,7 @@ file_read_tool = FileReadTool(
      description='A tool to read the potencial cadidates file.')
 
 # Instantiate the ChatOpenAI model
-gpt = ChatOpenAI(model_name="gpt-4o-mini")
+gpt = ChatOpenAI(model_name="gpt-4o")
 
 # Create Agents class
 class Agents():
