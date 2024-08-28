@@ -3,6 +3,9 @@
 The HR Agent Platform is an AI-powered system designed to streamline the hiring process by automating candidate research, review, and interview question generation. This platform leverages a multi-agent system to perform complex tasks, such as searching for potential candidates, reviewing their profiles, and crafting tailored interview questions. Each agent is specialized in a particular aspect of the recruitment process, ensuring efficiency and accuracy.
 
 ## System Architecture
+<p align="center"> <img width="800px" heigth="500px" src="imagens/MFCC.png">
+
+    
 ### Components
 - Agents
 
@@ -79,7 +82,10 @@ The HR Agent Platform is an AI-powered system designed to streamline the hiring 
     streamlit run main.py
     ```
 ### Streamlit
-
+- Usage:
+    - About: Provides an overview of the platform.
+    - HR Agent Platform: Allows you to input job details and run the agents to find and evaluate candidates.
+    - 
 - Use the Interface:
     - Navigate to the "HR Agent Platform" tab.
     - Fill in the form with the job title, brief description, required skills, differential skills, and location.
@@ -88,5 +94,10 @@ The HR Agent Platform is an AI-powered system designed to streamline the hiring 
 - Process Flow:
     - After submission, the agents will execute their respective tasks, with the Recruiter Agent first identifying potential candidates, followed by the Review Agent refining the list, and finally, the Interview Agent generating tailored interview questions.
     - The results will be saved in the respective files and displayed in the console
+      
+- Outputs
+    - potencial_candidates_draft.md: The initial list of potential candidates.
+    - potencial_candidates.md: The reviewed and refined list of top 3 candidates.
+    - interview_questions.doc: The tailored job interview questions for each candidate.
 
   
