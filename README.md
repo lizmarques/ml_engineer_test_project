@@ -26,3 +26,8 @@ ML Engineer Test Project: Building an Agentic Worker
     ```plaintext
     load_dotenv(r"C:\Users\YourUsername\YourProject\.env")
     ```
+    
+5.   Launch the Streamlit application by running the following command in your terminal:
+   ```plaintext
+   streamlit run main.py
+    ```
