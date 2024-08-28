@@ -21,4 +21,8 @@ ML Engineer Test Project: Building an Agentic Worker
     ```plaintext
     pip install -r requirements.txt
     ```
-4.  Adjust all file paths in the scripts to match your personal directory structure. For example: load_dotenv(r"C:\Users\YourUsername\YourProject\.env")
+    
+4.  Adjust all file paths in the scripts to match your personal directory structure. For example:
+    ```plaintext
+    load_dotenv(r"C:\Users\YourUsername\YourProject\.env")
+    ```
