@@ -1,6 +1,7 @@
 # Import
 from crewai import Agent
 from crewai_tools.tools import WebsiteSearchTool, SerperDevTool, FileReadTool
+from langchain_openai import ChatOpenAI
 
 # Tool that does a RAG search over a website
 web_search_tool = WebsiteSearchTool()
