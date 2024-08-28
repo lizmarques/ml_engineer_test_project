@@ -3,10 +3,11 @@
 The HR Agent Platform is an AI-powered system designed to streamline the hiring process by automating candidate research, review, and interview question generation. This platform leverages a multi-agent system to perform complex tasks, such as searching for potential candidates, reviewing their profiles, and crafting tailored interview questions. Each agent is specialized in a particular aspect of the recruitment process, ensuring efficiency and accuracy.
 
 ## System Architecture
-<p align="center"> <img width="800px" heigth="500px" src="imagens/MFCC.png">
 
-    
 ### Components
+
+<p align="center"> <img width="800px" heigth="500px" src="images/agents.png">
+    
 - Agents
 
     - **Recruiter Agent:** Acts as a Senior Tech Recruiter with expertise in LinkedIn searches to find candidates that meet specific job requirements.
@@ -27,9 +28,13 @@ The HR Agent Platform is an AI-powered system designed to streamline the hiring 
 
 - Workflow
   
-    - **Recruiter Agent:** Uses the WebsiteSearchTool and SerperDevTool to search LinkedIn and generate a draft list of potential candidates.
-    - **Review Agent:** Reads the draft list, checks for completeness, and refines it to the top three candidates.
-    - **Interview Agent:** Reads the final candidate file and generates a set of customized interview questions based on the candidates' profiles and job requirements.
+<p align="center"> <img width="800px" heigth="500px" src="images/agents_workflow.png">
+
+- Workflow process
+  
+    - **Recruiter Agent:** Uses the WebsiteSearchTool and SerperDevTool to search LinkedIn and generate a draft list of potential candidates (potencial_candidates_draft.md).
+    - **Review Agent:** Reads the draft list, checks for completeness, and refines it to the top three candidates (potencial_candidates.md).
+    - **Interview Agent:** Reads the final candidate file and generates a set of customized interview questions based on the candidates' profiles and job requirements (interview_questions.doc).
 
 ## File Structure
 - agents.py: Contains the definitions of the AI agents (Recruiter Agent, Review Agent, and Interview Agent).
