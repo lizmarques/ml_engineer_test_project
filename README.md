@@ -23,11 +23,13 @@ ML Engineer Test Project: Building an Agentic Worker
     ```
     
 4.  Adjust all file paths in the scripts to match your personal directory structure. For example:
+   
     ```plaintext
     load_dotenv(r"C:\Users\YourUsername\YourProject\.env")
     ```
     
-5.   Launch the Streamlit application by running the following command in your terminal:
-   ```plaintext
-   streamlit run main.py
+6.  Launch the Streamlit application by running the following command in your terminal:
+   
+    ```plaintext
+    streamlit run main.py
     ```
