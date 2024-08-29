@@ -72,7 +72,7 @@ The HR Agent Platform is an AI-powered system designed to streamline the hiring 
 4.  Adjust all file paths in the scripts to match your personal directory structure. For example:
    
     ```plaintext
-    load_dotenv(r"C:\Users\YourUsername\YourProject\.env")
+    load_dotenv(r"C:\Users\YourUsername\ml_engineer_test_project\.env")
     ```
     
 5.  Update the .env file with your own credentials and configuration settings.
