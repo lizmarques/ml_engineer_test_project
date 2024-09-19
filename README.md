@@ -2,6 +2,10 @@
 ## Overview
 The HR Agent Platform is an AI-powered system designed to streamline the hiring process by automating candidate research, review, and interview question generation. This platform leverages a multi-agent system to perform complex tasks, such as searching for potential candidates, reviewing their profiles, and crafting tailored interview questions. Each agent is specialized in a particular aspect of the recruitment process, ensuring efficiency and accuracy.
 
+## [Video] Platform Demonstration
+
+[https://github.com/lizmarques/ml_engineer_test_project/blob/38ad6f410e05c35aaba1e7ba1a6dc66c62767493](https://github.com/lizmarques/ml_engineer_test_project/blob/38ad6f410e05c35aaba1e7ba1a6dc66c62767493/%5BDEMO%5D%20HR%20Agent%20Platform.mp4)
+
 ## System Architecture
 
 ### Components
