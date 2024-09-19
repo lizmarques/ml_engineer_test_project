@@ -36,6 +36,15 @@ The HR Agent Platform is an AI-powered system designed to streamline the hiring 
     - **Review Agent:** Reads the draft list, checks for completeness, and refines it to the top three candidates (potencial_candidates.md).
     - **Interview Agent:** Reads the final candidate file and generates a set of customized interview questions based on the candidates' profiles and job requirements (interview_questions.doc).
 
+## Key Design Decisions
+- **CrewAI:** The platform uses crewAI framework to orchestrate collaboration among AI agents, leveraging its ability to automate multiagent workflows and achieve common goals efficiently.
+
+- **Streamlit for Front-End:** Streamlit was chosen for its ease of use and rapid development, allowing for the creation of interactive, intuitive applications with minimal code, making it ideal for the platform’s interface.
+
+- **GPT-4o Model:** This model was selected for the ability to generate human-like responses and decisions, essential for evaluating candidates and generating interview questions.
+
+- **AgentOps for Monitoring:** AgentOps enables real-time monitoring of agents, offering a dashboard to track performance, session replays, and generate custom reports. It provides session drilldowns to analyze Crew agent interactions, LLM calls, and tool usage, making it invaluable for debugging and understanding agent behavior.
+
 ## File Structure
 - agents.py: Contains the definitions of the AI agents (Recruiter Agent, Review Agent, and Interview Agent).
 - tasks.py: Contains the definitions of the tasks each agent will perform.
